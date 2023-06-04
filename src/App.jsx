@@ -25,6 +25,8 @@ function App() {
   return (
     <>
       <div>
+
+        <h1 className="text-white text-xl md:text-7xl my-5">Welcome </h1>
         <h1 className="text-white text-xl md:text-7xl my-5">From 0 to 10</h1>
         <div className="flex space-y-10 flex-col items-center border w-full  content-center p-3 md:p-[8rem]  mt-[5rem] justify-center">
           <h1 className="text-white text-2xl md:text-7xl mx-5  w-full">{count}</h1>
